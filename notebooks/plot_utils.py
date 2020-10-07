@@ -9,7 +9,7 @@ import seaborn as sns
 from IPython.core.display import display, HTML
 from scipy import stats
 
-from four_step.common.logging_utils import indent
+from notebooks.logging_utils import indent
 
 
 def plot_trip_ends(productions, attractions, year):
