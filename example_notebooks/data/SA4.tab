@@ -1,0 +1,14 @@
+!table
+!version 450
+!charset Neutral
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 7
+    SA4_CODE_2016 Char (3) ;
+    SA4_NAME_2016 Char (50) ;
+    GCCSA_CODE_2016 Char (5) ;
+    GCCSA_NAME_2016 Char (50) ;
+    STATE_CODE_2016 Char (3) ;
+    STATE_NAME_2016 Char (50) ;
+    AREA_ALBERS_SQKM Float ;
